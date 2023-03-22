@@ -1,0 +1,14 @@
+{
+  "name": "assignment-one-webserver",
+  "version": "0.0.1",
+  "description": "Webserver for assignment one",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "author": "salfra987",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
