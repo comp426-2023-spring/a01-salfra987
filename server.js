@@ -1,5 +1,6 @@
 http = require('http');
 const fs = require('fs');
+const minimist = require('minimist');
 var argv = require('minimist')(process.argv.slice(2));
 
 const args = minimist(process.argv.slice(2));
