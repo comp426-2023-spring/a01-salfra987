@@ -16,7 +16,7 @@ fs.readFile('./public/index.html', 'utf8', (err, data) => {
   }
   data_var = data;
 }
-});
+);
      
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
